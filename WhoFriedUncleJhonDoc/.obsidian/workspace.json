@@ -15,14 +15,27 @@
               "state": {
                 "file": "BrainStorm.canvas",
                 "viewState": {
-                  "x": -96.61737519210178,
-                  "y": -188.51276261762115,
+                  "x": 133.12229580730528,
+                  "y": -634.6672036984698,
                   "zoom": -1.2000000000000002
                 }
               }
             }
+          },
+          {
+            "id": "585d72370e9ed140",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Story.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BrainStorm.canvas",
+                "file": "Story.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BrainStorm.canvas",
+                "file": "Story.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BrainStorm.canvas"
+                "file": "Story.md"
               }
             }
           }
@@ -149,10 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "332b3d43adc9dbe3",
+  "active": "585d72370e9ed140",
   "lastOpenFiles": [
-    "Untitled.md",
     "BrainStorm.canvas",
+    "Story.md",
     "Welcome.md"
   ]
 }
