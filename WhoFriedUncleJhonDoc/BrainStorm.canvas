@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"30006ba0b29a8cc2","type":"text","text":"Hotline miami like","x":-190,"y":-585,"width":250,"height":60},
+		{"id":"a8ebd8c04e56c54d","type":"text","text":"Halak","x":-85,"y":-80,"width":250,"height":60},
+		{"id":"4ac8b7cb5873d83b","type":"text","text":"Top down shooter","x":369,"y":-107,"width":250,"height":60},
+		{"id":"744f23de82e02e5c","type":"text","text":"We need a game about Fishes","x":-511,"y":-860,"width":300,"height":50,"color":"1"},
+		{"id":"6c87dc0cb9166dc7","type":"text","text":"Detektív fish","x":-461,"y":-749,"width":250,"height":60},
+		{"id":"7db5a1fa0d85e1f3","type":"text","text":"Who fried uncle Jhon?","x":-461,"y":-585,"width":250,"height":60},
+		{"id":"97960afc6b0901c6","type":"text","text":"Csirkék","x":-511,"y":-440,"width":250,"height":60},
+		{"id":"737da3021cf198d1","type":"text","text":"Rákok","x":-440,"y":80,"width":250,"height":60},
+		{"id":"4ac8ac194af24c94","type":"text","text":"Hyprt real Fish stick","x":-740,"y":-585,"width":250,"height":60},
+		{"id":"8c1f0e8e93348524","type":"text","text":"Kokainnal dúsított majonézzel akarnak bosszút állni a halakon","x":-672,"y":-262,"width":311,"height":82},
+		{"id":"e1a74ca00e590da4","type":"text","text":"A halak ","x":-602,"y":-62,"width":250,"height":60},
+		{"id":"429f0158857dacd9","type":"text","text":"Ütés","x":344,"y":-680,"width":250,"height":60},
+		{"id":"186b87bbde9d05d4","type":"text","text":"Lövés","x":344,"y":-620,"width":250,"height":60},
+		{"id":"ac6fc13f3b26ba10","type":"text","text":"Dobás","x":344,"y":-560,"width":250,"height":60},
+		{"id":"06d6b2fb824d888d","type":"text","text":"One shot one kill","x":344,"y":-500,"width":250,"height":60},
+		{"id":"52ed9edbbd90e6b5","type":"text","text":"Cody Fisher","x":-139,"y":-410,"width":250,"height":60},
+		{"id":"aec0a49fab225206","type":"text","text":"Középkorú nyomozóhal erős alkoholizmussal.","x":-85,"y":-262,"width":250,"height":60},
+		{"id":"c276291fa0ca1768","type":"text","text":"Átvezetők","x":344,"y":-350,"width":250,"height":60},
+		{"id":"e9bdb43039c165d1","type":"text","text":"4-5 level","x":65,"y":69,"width":250,"height":60},
+		{"id":"806f2ef0f81a0b96","type":"text","text":"Level 1 - Begining\nCody Fisher irodájába/lakásába betörnek a tikok és ki kell küzdened magad","x":393,"y":75,"width":347,"height":145},
+		{"id":"b809324295a81f7c","type":"text","text":"Level 2 - Strip bar\nA helyszín egy tyúkól ami lényegében egy stripp bár a kakasoknak, Itt derülne ki hogy a majonéz maffia áll a háttérben","x":393,"y":260,"width":347,"height":160},
+		{"id":"2a7c4aa2b50f034c","type":"text","text":"Level 3 - Factory\nMajonéz gyár ahol Cody Fisher leszámol a majonéz maffiával","x":393,"y":478,"width":347,"height":160},
+		{"id":"37cc82207b94112f","type":"text","text":"Level 4 - Leszámolás\nCsirke maffia főhadiszállása ami egy lakatlan szigeten lévő villa lenne és Cody Fisher elmegy odas legyőzni a csirke bosst","x":393,"y":700,"width":347,"height":160}
+	],
+	"edges":[
+		{"id":"e609f48adeff6fdb","fromNode":"30006ba0b29a8cc2","fromSide":"right","toNode":"429f0158857dacd9","toSide":"left"},
+		{"id":"0f88a81e4af91d8b","fromNode":"30006ba0b29a8cc2","fromSide":"right","toNode":"186b87bbde9d05d4","toSide":"left"},
+		{"id":"5f387aa87d636bee","fromNode":"30006ba0b29a8cc2","fromSide":"right","toNode":"ac6fc13f3b26ba10","toSide":"left"},
+		{"id":"2eb3d0da3a26f92c","fromNode":"30006ba0b29a8cc2","fromSide":"right","toNode":"06d6b2fb824d888d","toSide":"left"},
+		{"id":"25ad03aa697e193d","fromNode":"6c87dc0cb9166dc7","fromSide":"bottom","toNode":"30006ba0b29a8cc2","toSide":"top"},
+		{"id":"ba78156e7a59bb76","fromNode":"6c87dc0cb9166dc7","fromSide":"bottom","toNode":"7db5a1fa0d85e1f3","toSide":"top"},
+		{"id":"6b9e1ae52390894c","fromNode":"6c87dc0cb9166dc7","fromSide":"bottom","toNode":"4ac8ac194af24c94","toSide":"top"},
+		{"id":"5083cbc39cdfc5ef","fromNode":"97960afc6b0901c6","fromSide":"bottom","toNode":"8c1f0e8e93348524","toSide":"top"},
+		{"id":"99b05dd5369f7541","fromNode":"737da3021cf198d1","fromSide":"top","toNode":"e1a74ca00e590da4","toSide":"bottom"},
+		{"id":"40b25ceb9bff404d","fromNode":"52ed9edbbd90e6b5","fromSide":"bottom","toNode":"aec0a49fab225206","toSide":"top"}
+	]
+}
