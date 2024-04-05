@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cstiwprowwadb"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_6k2ur"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_j5i6a"]
+size = Vector2(5, 5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rdgqu"]
+size = Vector2(5, 5)
+
+[node name="Wall" type="StaticBody2D"]
+disable_mode = 1
+physics_material_override = SubResource("PhysicsMaterial_6k2ur")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+mesh = SubResource("QuadMesh_j5i6a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_rdgqu")
+debug_color = Color(0.87451, 0.317647, 0.368627, 0.419608)

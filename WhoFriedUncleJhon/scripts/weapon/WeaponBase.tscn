@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://e0t2dt33kwxt"]
+
+[ext_resource type="Script" path="res://scripts/weapon/WeaponBase.gd" id="1_38gsb"]
+
+[node name="WeaponBase" type="Node2D"]
+script = ExtResource("1_38gsb")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
