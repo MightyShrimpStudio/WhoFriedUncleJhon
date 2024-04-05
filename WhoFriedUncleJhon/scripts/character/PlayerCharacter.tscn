@@ -10,7 +10,7 @@
 script = ExtResource("1_gxmbu")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(10, 10)
+zoom = Vector2(5, 5)
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="."]
 position = Vector2(1.49012e-06, 2.08616e-06)

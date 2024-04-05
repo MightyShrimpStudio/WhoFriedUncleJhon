@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dd37f2caadq6i"]
+[gd_scene load_steps=4 format=3 uid="uid://dd37f2caadq6i"]
 
 [ext_resource type="PackedScene" uid="uid://c5cvno2qvvjq0" path="res://scripts/character/PlayerCharacter.tscn" id="1_ru7de"]
 [ext_resource type="PackedScene" uid="uid://cstiwprowwadb" path="res://scripts/terrain/Wall.tscn" id="2_joe7i"]
+[ext_resource type="PackedScene" uid="uid://cb2rdpckdhc13" path="res://scripts/character/enemy_character.tscn" id="3_4xru1"]
 
 [node name="TestLevel" type="Node2D"]
 
@@ -22,3 +23,6 @@ position = Vector2(72, 27)
 
 [node name="Wall5" parent="." instance=ExtResource("2_joe7i")]
 position = Vector2(66, -25)
+
+[node name="EnemyCharacter" parent="." instance=ExtResource("3_4xru1")]
+position = Vector2(34, -17)

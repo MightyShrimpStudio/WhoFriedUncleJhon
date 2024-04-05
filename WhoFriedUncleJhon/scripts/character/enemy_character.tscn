@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cb2rdpckdhc13"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_45mc2"]
+radius = 10.0
+height = 20.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ir5t8"]
+
+[node name="EnemyCharacter" type="CharacterBody2D"]
+motion_mode = 1
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+mesh = SubResource("SphereMesh_45mc2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ir5t8")
