@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"3c8ffbca5e312ba0","x":260,"y":-620,"width":314,"height":200,"type":"text","text":"GameMaster\n- Asset store\n- game ending tracker\n- next level handler"},
+		{"id":"e829ba01a3d21b16","x":529,"y":-147,"width":250,"height":60,"type":"text","text":"Wall"},
+		{"id":"53212bb97520402a","x":813,"y":-460,"width":312,"height":141,"type":"text","text":"Game level\n- placement of all character\n- placement of all env item"},
+		{"id":"b634cb9c424580e4","x":845,"y":-147,"width":250,"height":132,"type":"text","text":"Window\n- Can see trough\n- Can be destroyed"},
+		{"id":"b3e6c43889cfc1a3","x":1125,"y":-149,"width":250,"height":100,"type":"text","text":"Door\n- interaction"},
+		{"id":"c37eaedf4943088e","x":-628,"y":225,"width":250,"height":193,"type":"text","text":"PlayerCharacter\n- character controller\n- interaction raycast\n- player events\n- Camera"},
+		{"id":"ac6e8fc8348df626","x":-248,"y":230,"width":250,"height":133,"type":"text","text":"EnemyCharacter\n- ai subsystem\n- npc events"},
+		{"id":"2a4abc5cc43dd51e","x":-417,"y":-257,"width":250,"height":280,"type":"text","text":"CharacterBase\n- mesh\n- collision\n- aiming raycast\n- spawning\n- weapon control\n\t- shoot\n\t- drop"},
+		{"id":"d5dfcd17aec7e4de","x":1063,"y":418,"width":285,"height":161,"type":"text","text":"Hud\n- score\n- interaction messages\n- ammo count"},
+		{"id":"5fa153933f2cff79","x":585,"y":414,"width":250,"height":165,"type":"text","text":"Pause menu\n- return\n- main menu\n- quit"},
+		{"id":"16f8b487ba9c1e0d","x":779,"y":150,"width":347,"height":117,"type":"text","text":"UI\n- event subscription for elements"},
+		{"id":"9e68b9c30f211c7d","x":60,"y":221,"width":250,"height":152,"type":"text","text":"Ai Subsystem\n- behaviour states\n- movement\n- sensor raycasts"},
+		{"id":"b80246b4bf6f657e","x":-800,"y":-160,"width":250,"height":87,"type":"text","text":"Weapon\n- track ammo"}
+	],
+	"edges":[
+		{"id":"7e7b900f0b85194c","fromNode":"2a4abc5cc43dd51e","fromSide":"bottom","toNode":"c37eaedf4943088e","toSide":"top"},
+		{"id":"1f63035336800e8e","fromNode":"2a4abc5cc43dd51e","fromSide":"bottom","toNode":"ac6e8fc8348df626","toSide":"top"},
+		{"id":"934e9a35ba65e511","fromNode":"53212bb97520402a","fromSide":"bottom","toNode":"e829ba01a3d21b16","toSide":"top"},
+		{"id":"5ddc70a36947b9c4","fromNode":"53212bb97520402a","fromSide":"bottom","toNode":"b634cb9c424580e4","toSide":"top"},
+		{"id":"8fddfbe0416bb6a4","fromNode":"53212bb97520402a","fromSide":"bottom","toNode":"b3e6c43889cfc1a3","toSide":"top"},
+		{"id":"650a4404004ac790","fromNode":"16f8b487ba9c1e0d","fromSide":"bottom","toNode":"5fa153933f2cff79","toSide":"top"},
+		{"id":"358b93f6df4701ee","fromNode":"16f8b487ba9c1e0d","fromSide":"bottom","toNode":"d5dfcd17aec7e4de","toSide":"top"},
+		{"id":"b88af85a2949840a","fromNode":"b80246b4bf6f657e","fromSide":"right","toNode":"2a4abc5cc43dd51e","toSide":"left"},
+		{"id":"dc1ce1b0be86c585","fromNode":"9e68b9c30f211c7d","fromSide":"left","toNode":"ac6e8fc8348df626","toSide":"right"}
+	]
+}

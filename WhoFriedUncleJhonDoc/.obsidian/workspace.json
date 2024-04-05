@@ -33,9 +33,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "085251d73b21bbc0",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Technical chart.canvas",
+                "viewState": {
+                  "x": 390.0066523566637,
+                  "y": 22.634314645699135,
+                  "zoom": -0.8
+                }
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Story.md",
+                "file": "Technical chart.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Story.md",
+                "file": "Technical chart.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Story.md"
+                "file": "Technical chart.canvas"
               }
             }
           }
@@ -162,8 +177,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "585d72370e9ed140",
+  "active": "085251d73b21bbc0",
   "lastOpenFiles": [
+    "Technical chart.canvas",
     "BrainStorm.canvas",
     "Story.md",
     "Welcome.md"
