@@ -2,21 +2,21 @@ extends CharacterBody2D
 
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
 
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
+var ray_cast: RayCast2D
 
+func _ready():
+	ray_cast = find_child("RayCast2D")
 
 func _physics_process(delta):
 
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+	var look_vec = get_global_mouse_position() - global_position
+	global_rotation = atan2(look_vec.y, look_vec.x)
 
 	var horizontal_direction = Input.get_axis("ui_left", "ui_right")
 	var vertical_direction = Input.get_axis("ui_up", "ui_down")
 	var direction = Vector2(horizontal_direction, vertical_direction)
+	
 	if direction:
 		velocity = direction * SPEED
 	else:
