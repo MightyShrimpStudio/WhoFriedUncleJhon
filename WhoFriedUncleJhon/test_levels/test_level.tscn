@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/game_master/GameMaster.gd" id="1_5srhf"]
 [ext_resource type="PackedScene" uid="uid://c5cvno2qvvjq0" path="res://scripts/character/PlayerCharacter.tscn" id="1_ru7de"]
 [ext_resource type="PackedScene" uid="uid://cstiwprowwadb" path="res://scripts/terrain/Wall.tscn" id="2_joe7i"]
-[ext_resource type="PackedScene" uid="uid://cb2rdpckdhc13" path="res://scripts/character/enemy_character.tscn" id="3_4xru1"]
+[ext_resource type="PackedScene" uid="uid://cb2rdpckdhc13" path="res://scripts/character/EnemyCharacter.tscn" id="3_4xru1"]
 
 [node name="TestLevel" type="Node2D"]
 script = ExtResource("1_5srhf")

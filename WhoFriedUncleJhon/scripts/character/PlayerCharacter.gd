@@ -9,19 +9,22 @@ var Bullet = preload("res://scripts/weapon/Bullet.tscn")
 var is_mouse_press_registered: bool = false
 
 func _physics_process(delta):
+	set_character_direction()
+	handle_shooting_action()
+	handle_moovement()
 
-#### Look
+func set_character_direction():
 	var look_vec = get_global_mouse_position() - global_position
 	global_rotation = atan2(look_vec.y, look_vec.x)
 
-#### Shooting
+func handle_shooting_action():
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) && !is_mouse_press_registered:
 		shoot.emit(Bullet, rotation, position, name)
 		is_mouse_press_registered = true
 	elif !Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) && is_mouse_press_registered:
 		is_mouse_press_registered = false
 
-#### Movement
+func handle_moovement():
 	var horizontal_direction = Input.get_axis("ui_left", "ui_right")
 	var vertical_direction = Input.get_axis("ui_up", "ui_down")
 	var direction = Vector2(horizontal_direction, vertical_direction)
